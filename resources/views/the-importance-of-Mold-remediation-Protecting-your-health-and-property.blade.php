@@ -16,7 +16,7 @@
 @section('blog')
   <!-- Hero Section with Parallax Effect -->
   <section class=" text-white py-16 md:py-24 relative overflow-hidden">
-    <div class="absolute inset-0 bg-[url('images/mold-texture.png')] opacity-10"></div>
+    <div class="absolute inset-0 bg-[url('images/mold-texture.webp')] opacity-10"></div>
     <div class="container mx-auto px-4 relative z-10">
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-8 md:mb-0">
@@ -68,7 +68,7 @@
             <h2 class="text-3xl md:text-4xl font-bold mb-6 text-green-400  kk wm">What Mold Exactly Is, and Why It Grows?</h2>
             
             <div class=" mb-8">
-              <img src="images/wall-of-mold.jpg" style="aspect-ratio: 21/9" alt="wall-of-mold" class="rounded-lg shadow-md">
+              <img src="images/wall-of-mold.webp" style="aspect-ratio: 21/9" alt="wall-of-mold" class="rounded-lg shadow-md">
             </div>
 
             <p class="mb-6 text-lg leading-relaxed kk wm">
@@ -90,7 +90,7 @@
               <!-- Mold Section -->
               <div :class="{'bg-green-50': !darkMode, 'bg-green-600': darkMode}" class="p-6 rounded-lg">
                 <div class="flex flex-col items-start">
-                  <img src="images/sick-kid.jpg" alt="Mold Icon" class=" w-full md:h-[400px] h-[250px] rounded object-cover mb-4 ">
+                  <img src="images/sick-kid.webp" alt="Mold Icon" class=" w-full md:h-[400px] h-[250px] rounded object-cover mb-4 ">
                   <div>
                     <p class="wm kk">Mold can impact anyone, but some people are more sensitive—like young kids, older adults, or anyone with allergies or asthma.</p>
                     <h4 class=" kk wm text-xl font-bold mb-2">There are some symptoms of Mold exposure:</h4>
@@ -111,7 +111,7 @@
               <!-- Lead Section -->
               <div :class="{'bg-green-50': !darkMode, 'bg-green-600': darkMode}" class="bg-green-50 p-6 rounded-lg">
                 <div class="flex flex-col items-start">
-                  <img src="images/hidden-damage.jpg" alt="Lead Icon" class="w-full md:h-[400px] h-[250px] rounded object-cover mb-4">
+                  <img src="images/hidden-damage.webp" alt="Lead Icon" class="w-full md:h-[400px] h-[250px] rounded object-cover mb-4">
                   <div>
                     <h4 class=" kk wm text-xl font-bold mb-2">The Hidden Cost that Your Property faces:</h4>
                     <p class="kk wm">Mold growth can cause significant property damage, resulting in expensive repairs. Over time it can lead to:</p>
@@ -128,7 +128,7 @@
               <!-- Asbestos Section -->
               <div :class="{'bg-green-50': !darkMode, 'bg-green-600': darkMode}" class="bg-green-50 p-6 rounded-lg">
                 <div class="flex flex-col items-start">
-                  <img src="images/professionals-inspecting.jpg" alt="Asbestos Icon" class="w-full md:h-[400px] h-[250px] rounded object-cover mb-4">
+                  <img src="images/professionals-inspecting.webp" alt="Asbestos Icon" class="w-full md:h-[400px] h-[250px] rounded object-cover mb-4">
                   <div>
                     <h4 class="text-xl font-bold mb-2 kk wm">Why You Should Call in the Pros?</h4>
                     <p class=" kk wm">It might be tempting to tackle Mold on your own with some bleach and elbow grease, but here’s the truth: surface cleaning rarely gets to the root of the problem.<br>  Here’s what professional Mold remediation offers:</p>
@@ -218,7 +218,7 @@
             <div :class="{'bg-green-300': !darkMode, 'bg-green-600': darkMode}" class=" text-white p-8 rounded-lg my-12">
               <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 mb-6 md:mb-0 md:mr-6">
-                  <img src="images/danger.png" alt="Warning Icon" class="w-20 h-20">
+                  <img src="images/danger.webp" alt="Warning Icon" class="w-20 h-20">
                 </div>
                 <div class="md:w-2/3">
                   <h3 class="text-2xl font-bold mb-4 kk wm">Critical Statistic</h3>
@@ -284,7 +284,7 @@
               <!-- Testimonial 1 -->
               <div class=" bg-transparent p-6 rounded-lg shadow-md">
                 <div class="flex items-center mb-4">
-                  <img src="images/testimonial-1.png" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                  <img src="images/testimonial-1.webp" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
                   <div>
                     <h4 class="font-bold">Sarah Thompson</h4>
                     <p class="text-sm  kk wm">Real Estate Investor</p>
@@ -299,7 +299,7 @@
               <!-- Testimonial 2 -->
               <div class=" bg-transparent p-6 rounded-lg shadow-md">
                 <div class="flex items-center mb-4">
-                  <img src="images/testimonial-1.png"alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                  <img src="images/testimonial-1.webp"alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
                   <div>
                     <h4 class="font-bold">Michael Chen</h4>
                     <p class="text-sm  kk wm">Commercial Property Manager</p>

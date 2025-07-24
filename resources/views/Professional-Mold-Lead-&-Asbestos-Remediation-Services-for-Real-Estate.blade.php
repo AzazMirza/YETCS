@@ -14,7 +14,7 @@
   @section('blog')
   <!-- Hero Section with Parallax Effect -->
   <section class=" text-white py-16 md:py-24 relative overflow-hidden">
-    <div class="absolute inset-0 bg-[url('images/mold-texture.png')] opacity-10"></div>
+    <div class="absolute inset-0 bg-[url('images/mold-texture.webp')] opacity-10"></div>
     <div class="container mx-auto px-4 relative z-10">
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-8 md:mb-0">
@@ -37,7 +37,7 @@
         </div>
         <div class="md:w-1/2">
           <div class="relative">
-            <img src="images/mold inspection.jpg" alt="Professional Remediation Team" class="rounded-lg shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
+            <img src="images/mold inspection.webp" alt="Professional Remediation Team" class="rounded-lg shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
             <div class="absolute -bottom-4 -right-4 bg-red-600 text-white p-4 rounded-lg shadow-lg">
               <p class="font-bold">20+ Years</p>
               <p>Industry Experience</p>
@@ -66,8 +66,8 @@
             <h2 class="text-3xl md:text-4xl font-bold mb-6 text-green-400  kk wm">The Silent Threats in Your Real Estate Investment</h2>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-              <img src="images/molding inspection2.jpg" alt="Mold Inspection" class="rounded-lg shadow-md">
-              <img src="images/asbestos testing2.jpg" alt="Asbestos Testing" class="rounded-lg shadow-md">
+              <img src="images/molding inspection2.webp" alt="Mold Inspection" class="rounded-lg shadow-md">
+              <img src="images/asbestos testing2.webp" alt="Asbestos Testing" class="rounded-lg shadow-md">
             </div>
 
             <p class="mb-6 text-lg leading-relaxed kk wm">
@@ -84,7 +84,7 @@
               <!-- Mold Section -->
               <div :class="{'bg-green-50': !darkMode, 'bg-green-600': darkMode}" class="p-6 rounded-lg">
                 <div class="flex flex-col items-start">
-                  <img src="images/mold1.jpg" alt="Mold Icon" class="w-full  md:h-[400px] h-[250px]  mr-4">
+                  <img src="images/mold1.webp" alt="Mold Icon" class="w-full  md:h-[400px] h-[250px]  mr-4">
                   <div>
                     <h4 class=" kk wm wmtext-xl font-bold mb-2">Mold Infestation</h4>
                     <p class=" kk wm">Black mold (Stachybotrys chartarum) releases mycotoxins that can cause respiratory issues, allergic reactions, and even neurological symptoms. Our air quality specialists use thermal imaging to detect hidden moisture sources.</p>
@@ -95,7 +95,7 @@
               <!-- Lead Section -->
               <div :class="{'bg-green-50': !darkMode, 'bg-green-600': darkMode}" class="bg-green-50 p-6 rounded-lg">
                 <div class="flex flex-col items-start">
-                  <img src="images/paint.jpg" alt="Lead Icon" class="w-full  md:h-[400px] h-[250px]  mr-4">
+                  <img src="images/paint.webp" alt="Lead Icon" class="w-full  md:h-[400px] h-[250px]  mr-4">
                   <div>
                     <h4 class=" kk wmtext-xl font-bold mb-2">Lead Paint Hazards</h4>
                     <p class=" kk wm">Homes built before 1978 often contain lead-based paint. Our certified inspectors use XRF analyzers to detect lead in dust and surfaces, providing OSHA-compliant risk assessments.</p>
@@ -106,7 +106,7 @@
               <!-- Asbestos Section -->
               <div :class="{'bg-green-50': !darkMode, 'bg-green-600': darkMode}" class="bg-green-50 p-6 rounded-lg">
                 <div class="flex flex-col items-start">
-                  <img src="images/Asbestos Exposure.jpg" alt="Asbestos Icon" class="w-full  md:h-[400px] h-[250px]  mr-4">
+                  <img src="images/Asbestos Exposure.webp" alt="Asbestos Icon" class="w-full  md:h-[400px] h-[250px]  mr-4">
                   <div>
                     <h4 class="text-xl font-bold mb-2 kk wm">Asbestos Exposure</h4>
                     <p class=" kk wm">Friable asbestos fibers in building materials become airborne during renovations. Our EPA-certified team follows strict containment protocols for safe removal and disposal.</p>
@@ -156,7 +156,7 @@
             <div :class="{'bg-green-300': !darkMode, 'bg-green-600': darkMode}" class=" text-white p-8 rounded-lg my-12">
               <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 mb-6 md:mb-0 md:mr-6">
-                  <img src="images/danger.png" alt="Warning Icon" class="w-20 h-20">
+                  <img src="images/danger.webp" alt="Warning Icon" class="w-20 h-20">
                 </div>
                 <div class="md:w-2/3">
                   <h3 class="text-2xl font-bold mb-4 kk wm">Critical Statistic</h3>
@@ -222,7 +222,7 @@
               <!-- Testimonial 1 -->
               <div class=" bg-transparent p-6 rounded-lg shadow-md">
                 <div class="flex items-center mb-4">
-                  <img src="images/testimonial-1.png" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                  <img src="images/testimonial-1.webp" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
                   <div>
                     <h4 class="font-bold">Sarah Thompson</h4>
                     <p class="text-sm  kk wm">Real Estate Investor</p>
@@ -237,7 +237,7 @@
               <!-- Testimonial 2 -->
               <div class=" bg-transparent p-6 rounded-lg shadow-md">
                 <div class="flex items-center mb-4">
-                  <img src="images/testimonial-1.png"alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                  <img src="images/testimonial-1.webp"alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
                   <div>
                     <h4 class="font-bold">Michael Chen</h4>
                     <p class="text-sm  kk wm">Commercial Property Manager</p>

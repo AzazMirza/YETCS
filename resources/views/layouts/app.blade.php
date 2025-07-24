@@ -129,7 +129,7 @@
           </div>
         </div>
         <!-- <div class="md:w-1/3">
-          <img src="images/call-center-agent.png" width="100" height="100" width="100" height="100" alt="Emergency Response Team" class="rounded-lg ">
+          <img src="images/call-center-agent.webp" width="100" height="100" width="100" height="100" alt="Emergency Response Team" class="rounded-lg ">
         </div> -->
       </div>
     </div>

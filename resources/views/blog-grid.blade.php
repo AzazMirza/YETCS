@@ -50,7 +50,7 @@
             <!-- Blog Item 2 -->
             <div class="animate_top sg vk rm xm">
               <div class="c rc i z-1 pg">
-                <img class="w-full" src="images/mold inspection.jpg" alt="Blog" />
+                <img class="w-full" src="images/mold inspection.webp" alt="Blog" />
 
                 <div
                   class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10"

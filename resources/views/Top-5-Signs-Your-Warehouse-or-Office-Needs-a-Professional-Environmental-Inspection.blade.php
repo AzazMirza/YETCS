@@ -16,7 +16,7 @@
   @section('blog')
   <!-- Hero Section with Parallax Effect -->
   <section class=" text-white py-16 md:py-24 relative overflow-hidden">
-    <div class="absolute inset-0 bg-[url('images/mold-texture.png')] opacity-10"></div>
+    <div class="absolute inset-0 bg-[url('images/mold-texture.webp')] opacity-10"></div>
     <div class="container mx-auto px-4 relative z-10">
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-8 md:mb-0">
@@ -68,7 +68,7 @@
             <h2 class="text-3xl md:text-4xl font-bold mb-6 text-green-400 kk wm">Top 5 Indicators That Your Property Needs Environmental Inspection <br> Safeguard Your Investment</h2>
             <div class=" mb-8">
             <div class="overflow-hidden mb-8">
-              <img src="images/damaged-front-door.jpg" style="aspect-ratio: 21/9; object-fit: cover;" alt="damaged-front-door-due-to-mold-and-asbestos" class="w-full rounded-lg shadow-md">
+              <img src="images/damaged-front-door.webp" style="aspect-ratio: 21/9; object-fit: cover;" alt="damaged-front-door-due-to-mold-and-asbestos" class="w-full rounded-lg shadow-md">
             </div>
 
             <p class="mb-6 text-lg leading-relaxed kk wm">
@@ -85,7 +85,7 @@
               <!-- Mold Section -->
               <div :class="{'bg-green-50': !darkMode, 'bg-green-600': darkMode}" class="p-6 rounded-lg">
                 <div class="flex flex-col items-start">
-                  <img src="images/mold1.jpg" alt="Multiple-kinds-of-mold-on-a-wall" class=" w-full  md:h-[400px] h-[250px]  rounded object-cover mb-4 ">
+                  <img src="images/mold1.webp" alt="Multiple-kinds-of-mold-on-a-wall" class=" w-full  md:h-[400px] h-[250px]  rounded object-cover mb-4 ">
                   <div>
                     <p class="wm kk">Mold is one of the most common indicators that an inspection is necessary. Black, green, white, or orange patches on walls, ceilings, or HVAC systems often signal moisture problems. Left unchecked, mold can spread quickly, damaging building materials and posing health risks like respiratory issues, allergies, and even neurological symptoms in extreme cases. While minor mold spots might seem manageable with DIY solutions, larger infestations require professional remediation. Certified technicians use containment strategies, HEPA air filtration, and specialized tools to safely remove mold and prevent future outbreaks.</p>
                     </div>
@@ -108,7 +108,7 @@
               <h3 class=" kk wm text-2xl font-bold mb-4 text-green-400">3. Water Damage Indicators</h3>
               <div :class="{'bg-green-50': !darkMode, 'bg-green-600': darkMode}" class="bg-green-50 p-6 rounded-lg">
                 <div class="flex flex-col items-start">
-                  <img src="images/peeling-paint.jpg" alt="Lead-paint-old-image" class="w-full  md:h-[400px] h-[250px]  rounded object-cover mb-4">
+                  <img src="images/peeling-paint.webp" alt="Lead-paint-old-image" class="w-full  md:h-[400px] h-[250px]  rounded object-cover mb-4">
                   <div>
                     <p class=" kk wm">Signs like water stains, peeling paint, warped floors, or pooling water point to past or ongoing leaks. Even small plumbing issues or roof seepage can create ideal conditions for mold growth if not addressed promptly. Untreated water damage weakens building structures, increases the risk of mold-related illnesses, and can result in expensive repairs. Immediate action—including leak repair, drying, and professional mold assessment—is crucial to prevent escalation.</p>
                     
@@ -175,7 +175,7 @@
             <div :class="{'bg-green-300': !darkMode, 'bg-green-600': darkMode}" class=" text-white p-8 rounded-lg my-12">
               <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 mb-6 md:mb-0 md:mr-6">
-                  <img src="images/danger.png" alt="Warning Icon" class="w-20 h-20">
+                  <img src="images/danger.webp" alt="Warning Icon" class="w-20 h-20">
                 </div>
                 <div class="md:w-2/3">
                   <h3 class="text-2xl font-bold mb-4 kk wm">Critical Statistic</h3>
@@ -241,7 +241,7 @@
               <!-- Testimonial 1 -->
               <div class=" bg-transparent p-6 rounded-lg shadow-md">
                 <div class="flex items-center mb-4">
-                  <img src="images/testimonial-1.png" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                  <img src="images/testimonial-1.webp" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
                   <div>
                     <h4 class="font-bold">Sarah Thompson</h4>
                     <p class="text-sm  kk wm">Real Estate Investor</p>
@@ -256,7 +256,7 @@
               <!-- Testimonial 2 -->
               <div class=" bg-transparent p-6 rounded-lg shadow-md">
                 <div class="flex items-center mb-4">
-                  <img src="images/testimonial-1.png"alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                  <img src="images/testimonial-1.webp"alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
                   <div>
                     <h4 class="font-bold">Michael Chen</h4>
                     <p class="text-sm  kk wm">Commercial Property Manager</p>

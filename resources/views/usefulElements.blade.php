@@ -32,7 +32,7 @@
             <!-- Team Item -->
             <div class="animate_top rj">
               <div class="c i pg z-1">
-                <img class="vd" src="images/team-01.png" alt="Team" />
+                <img class="vd" src="images/team-01.webp" alt="Team" />
 
                 <div class="ef im nl il">
                   <span class="h -ud-left-5 -ud-bottom-21 rc de gd gh if wa"></span>
@@ -72,7 +72,7 @@
             <!-- Team Item -->
             <div class="animate_top rj">
               <div class="c i pg z-1">
-                <img class="vd" src="images/team-02.png" alt="Team" />
+                <img class="vd" src="images/team-02.webp" alt="Team" />
 
                 <div class="ef im nl il">
                   <span class="h -ud-left-5 -ud-bottom-21 rc de gd gh if wa"></span>
@@ -112,7 +112,7 @@
             <!-- Team Item -->
             <div class="animate_top rj">
               <div class="c i pg z-1">
-                <img class="vd" src="images/team-03.png" alt="Team" />
+                <img class="vd" src="images/team-03.webp" alt="Team" />
 
                 <div class="ef im nl il">
                   <span class="h -ud-left-5 -ud-bottom-21 rc de gd gh if wa"></span>
@@ -407,21 +407,21 @@
             <h4 class="text-xl font-bold mb-4 text-green-400">Popular Guides</h4>
             <div class="space-y-4">
               <div class="flex">
-                <img loading="lazy" src="images/mold-guide.jpg" height="auto" width="100%" alt="Guide Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
+                <img loading="lazy" src="images/mold-guide.webp" height="auto" width="100%" alt="Guide Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
                 <div>
                   <a href="#" class="font-medium hover:text-green-600">Understanding Mold Growth</a>
                   <p class="text-sm text-gray-500">April 10, 2025</p>
                 </div>
               </div>
               <div class="flex">
-                <img loading="lazy" src="images/prevent-mold.jpg" height="auto" width="100%" alt="Guide Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
+                <img loading="lazy" src="images/prevent-mold.webp" height="auto" width="100%" alt="Guide Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
                 <div>
                   <a href="#" class="font-medium hover:text-green-600">How to Prevent Mold Indoors</a>
                   <p class="text-sm text-gray-500">April 5, 2025</p>
                 </div>
               </div>
               <div class="flex">
-                <img loading="lazy" src="images/air-quality-checklist.jpg" height="auto" width="100%" alt="Guide Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
+                <img loading="lazy" src="images/air-quality-checklist.webp" height="auto" width="100%" alt="Guide Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
                 <div>
                   <a href="#" class="font-medium hover:text-green-600">Air Quality Checklist</a>
                   <p class="text-sm text-gray-500">March 28, 2025</p>

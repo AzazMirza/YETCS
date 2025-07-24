@@ -109,7 +109,7 @@
           <div class="tc sf yo zf kq">
             <div class="ro">
               <div class="animate_top rounded-md shadow-solid-13 bg-white dark:bg-blacksection border border-stroke dark:border-strokedark p-7.5 md:p-10">
-                <img src="images/blog-big.png" alt="Blog" />
+                <img src="images/blog-big.webp" alt="Blog" />
 
                 <h2 class="ek vj 2xl:ud-text-title-lg kk wm nb gb">Kobe Steel plant that supplied</h2>
 
@@ -130,8 +130,8 @@
                 </p>
 
                 <div class="wc qf pn dg cb">
-                  <img src="images/blog-04.png" alt="Blog" />
-                  <img src="images/blog-05.png" alt="Blog" />
+                  <img src="images/blog-04.webp" alt="Blog" />
+                  <img src="images/blog-05.webp" alt="Blog" />
                 </div>
 
                 <h2 class="ek vj 2xl:ud-text-title-lg kk wm nb qb">The powerful force of humanity</h2>
@@ -260,19 +260,19 @@
 
                 <div>
                   <div class="tc fg 2xl:ud-gap-6 qb">
-                    <img src="images/blog-small-01.png" alt="Blog" />
+                    <img src="images/blog-small-01.webp" alt="Blog" />
                     <h5 class="wj kk wm xl bn ml il">
                       <a href="#">Free advertising for your online business</a>
                     </h5>
                   </div>
                   <div class="tc fg 2xl:ud-gap-6 qb">
-                    <img src="images/blog-small-02.png" alt="Blog" />
+                    <img src="images/blog-small-02.webp" alt="Blog" />
                     <h5 class="wj kk wm xl bn ml il">
                       <a href="#">9 simple ways to improve your design skills</a>
                     </h5>
                   </div>
                   <div class="tc fg 2xl:ud-gap-6">
-                    <img src="images/blog-small-03.png" alt="Blog" />
+                    <img src="images/blog-small-03.webp" alt="Blog" />
                     <h5 class="wj kk wm xl bn ml il">
                       <a href="#">Tips to quickly improve your coding speed.</a>
                     </h5>

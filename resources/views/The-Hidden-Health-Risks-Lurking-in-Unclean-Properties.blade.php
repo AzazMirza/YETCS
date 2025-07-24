@@ -17,7 +17,7 @@
 
   <!-- Hero Section with Parallax Effect -->
   <section class=" text-white py-16 md:py-24 relative overflow-hidden">
-    <div class="absolute inset-0 bg-[url('images/mold-texture.png')] opacity-10"></div>
+    <div class="absolute inset-0 bg-[url('images/mold-texture.webp')] opacity-10"></div>
     <div class="container mx-auto px-4 relative z-10">
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-8 md:mb-0">
@@ -131,7 +131,7 @@
           <div :class="{'bg-green-300': !darkMode, 'bg-green-600': darkMode}" class="text-white p-8 rounded-lg my-12">
             <div class="flex flex-col md:flex-row items-center">
               <div class="md:w-1/3 mb-6 md:mb-0 md:mr-6">
-                <img loading="lazy" src="images/danger.png" height="auto" width="100%" alt="Warning Icon" class="w-20 h-20">
+                <img loading="lazy" src="images/danger.webp" height="auto" width="100%" alt="Warning Icon" class="w-20 h-20">
               </div>
               <div class="md:w-2/3">
                 <h3 class="text-2xl font-bold mb-4 kk wm">Critical Statistic</h3>
@@ -191,7 +191,7 @@
               <!-- Testimonial 1 -->
               <div class="bg-transparent p-6 rounded-lg shadow-md">
                 <div class="flex items-center mb-4">
-                  <img loading="lazy" src="images/testimonial-1.png" height="auto" width="100%" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                  <img loading="lazy" src="images/testimonial-1.webp" height="auto" width="100%" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
                   <div>
                     <h4 class="font-bold">Sarah Thompson</h4>
                     <p class="text-sm kk wm">Real Estate Investor</p>
@@ -205,7 +205,7 @@
               <!-- Testimonial 2 -->
               <div class="bg-transparent p-6 rounded-lg shadow-md">
                 <div class="flex items-center mb-4">
-                  <img loading="lazy" src="images/testimonial-1.png" height="auto" width="100%" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                  <img loading="lazy" src="images/testimonial-1.webp" height="auto" width="100%" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
                   <div>
                     <h4 class="font-bold">Michael Chen</h4>
                     <p class="text-sm kk wm">Commercial Property Manager</p>

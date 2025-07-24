@@ -15,7 +15,7 @@
     @section('blog')
   <!-- Hero Section with Parallax Effect -->
   <section class=" text-white py-16 md:py-24 relative overflow-hidden">
-    <div class="absolute inset-0 bg-[url('images/mold-texture.png')] opacity-10"></div>
+    <div class="absolute inset-0 bg-[url('images/mold-texture.webp')] opacity-10"></div>
     <div class="container mx-auto px-4 relative z-10">
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-8 md:mb-0">
@@ -38,7 +38,7 @@
         </div>
         <div class="md:w-1/2">
           <div class="relative">
-            <img src="images/hidden-mold-collection.webp" fetchpriority="high" loading="eager" decoding="async" height="420" width="630" alt="home-owners-guide-for-mold-remediation" class="rounded-lg shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
+            <img src="images/hidden-mold-collection.webp" fetchpriority="high" loading="eager" decoding="async" height="420" width="630" alt="home owners guide for mold remediation" class="rounded-lg shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
             <div class="absolute -bottom-4 -right-4 bg-red-600 text-white p-4 rounded-lg shadow-lg">
               <p class="font-bold">20+ Years</p>
               <p>Industry Experience</p>
@@ -120,7 +120,7 @@
             <div :class="{'bg-green-300': !darkMode, 'bg-green-600': darkMode}" class="text-white p-8 rounded-lg my-12">
               <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 mb-6 md:mb-0 md:mr-6">
-                  <img loading="lazy" src="images/protection.png" height="auto" width="100%" alt="Prevention Icon" class="w-20 h-20">
+                  <img loading="lazy" src="images/protection.webp" height="auto" width="100%" alt="Prevention Icon" class="w-20 h-20">
                 </div>
                 <div class="md:w-2/3">
                   <h3 class="text-2xl font-bold mb-4 kk wm">Ready to Breathe Easier?</h3>

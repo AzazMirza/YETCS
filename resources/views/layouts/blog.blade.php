@@ -5,7 +5,7 @@
           <div id="assessment" class="bg-green-400 text-white rounded-lg p-8 mb-12">
             <div class="flex flex-col md:flex-row items-center kk wm">
               <div class="md:w-1/3 mb-6 md:mb-0 md:mr-6">
-                <img src="images/protection.png" alt="CTA Icon" class="w-24 h-24">
+                <img src="images/protection.webp" alt="CTA Icon" class="w-24 h-24">
               </div>
               <div class="md:w-2/3">
                 <h3 class="text-2xl font-bold mb-4">Protect Your Investment Today</h3>
@@ -68,21 +68,21 @@
             <h4 class="text-xl font-bold mb-4 text-green-400">Popular Guides</h4>
             <div class="space-y-4">
               <div class="flex">
-                <img src="images/molding inspection checklist.jpg" alt="Guide Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
+                <img src="images/molding inspection checklist.webp" alt="Guide Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
                 <div>
                   <a href="#" class="font-medium hover:text-green-600">Mold Inspection Checklist</a>
                   <p class="text-sm text-gray-500">April 10, 2025</p>
                 </div>
               </div>
               <div class="flex">
-                <img src="images/Lead Paint Safety Guide.jpg" alt="Guide Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
+                <img src="images/Lead Paint Safety Guide.webp" alt="Guide Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
                 <div>
                   <a href="#" class="font-medium hover:text-green-600">Lead Paint Safety Guide</a>
                   <p class="text-sm text-gray-500">April 5, 2025</p>
                 </div>
               </div>
               <div class="flex">
-                <img src="images/asbestos guide.jpg" alt="Guide Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
+                <img src="images/asbestos guide.webp" alt="Guide Thumbnail" class="w-16 h-16 object-cover rounded mr-4">
                 <div>
                   <a href="#" class="font-medium hover:text-green-600">Asbestos Identification Guide</a>
                   <p class="text-sm text-gray-500">March 28, 2025</p>
@@ -95,9 +95,9 @@
           <div class=" bg-transparent rounded-lg shadow-md p-6 kk wm">
             <h4 class="text-xl font-bold mb-4 text-green-400">Certifications</h4>
             <div class="grid grid-cols-3 gap-4">
-              <img src="images/iicrc.png" alt="IICRC Certified" class="w-full h-auto">
-              <img src="images/osha.png" alt="OSHA Certified" class="w-full h-auto">
-              <img src="images/epa.png" alt="EPA Certified" class="w-full h-auto">
+              <img src="images/iicrc.webp" alt="IICRC Certified" class="w-full h-auto">
+              <img src="images/osha.webp" alt="OSHA Certified" class="w-full h-auto">
+              <img src="images/epa.webp" alt="EPA Certified" class="w-full h-auto">
             </div>
             <p class="text-sm  kk wm mt-4">We maintain the highest industry certifications for mold, lead, and asbestos remediation.</p>
           </div> --}}
@@ -113,7 +113,7 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Case Study 1 -->
         <div class=" bg-transparent rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:-translate-y-2">
-          <img src="images/Commercial Office Building.jpg" alt="Case Study 1" class="w-full h-48 object-cover">
+          <img src="images/Commercial Office Building.webp" alt="Case Study 1" class="w-full h-48 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2">Commercial Office Building</h3>
             <p class=" kk wm mb-4">15,000 sq ft remediation project with hidden mold contamination behind drywall.</p>
@@ -131,7 +131,7 @@
 
         <!-- Case Study 2 -->
         <div class=" bg-transparent rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:-translate-y-2">
-          <img src="images/Historic Residential Property.jpg" alt="Case Study 2" class="w-full h-48 object-cover">
+          <img src="images/Historic Residential Property.webp" alt="Case Study 2" class="w-full h-48 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2">Historic Residential Property</h3>
             <p class=" kk wm mb-4">Lead paint and asbestos remediation in a 100-year-old home.</p>

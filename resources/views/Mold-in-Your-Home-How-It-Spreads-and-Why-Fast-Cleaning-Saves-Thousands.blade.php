@@ -15,7 +15,7 @@
     @section('blog')
   <!-- Hero Section with Parallax Effect -->
   <section class=" text-white py-16 md:py-24 relative overflow-hidden">
-    <div class="absolute inset-0 bg-[url('images/mold-texture.png')] opacity-10"></div>
+    <div class="absolute inset-0 bg-[url('images/mold-texture.webp')] opacity-10"></div>
     <div class="container mx-auto px-4 relative z-10">
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-8 md:mb-0">
@@ -38,7 +38,7 @@
         </div>
         <div class="md:w-1/2">
           <div class="relative">
-            <img src="images/mold-house.jpg" alt="office-cleaning-for-mold-remediation" class="rounded-lg shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
+            <img src="images/mold-house.webp" alt="office-cleaning-for-mold-remediation" class="rounded-lg shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
             <div class="absolute -bottom-4 -right-4 bg-red-600 text-white p-4 rounded-lg shadow-lg">
               <p class="font-bold">20+ Years</p>
               <p>Industry Experience</p>
@@ -68,7 +68,7 @@
             <h2 class="text-3xl md:text-4xl font-bold mb-6 text-green-400 kk wm">Why should you care about mold <br> in your house</h2>
             <div class=" mb-8">
             <div class="overflow-hidden mb-8">
-              <img src="images/moldy-indoors.jpg" style="aspect-ratio: 21/9; object-fit: cover;" alt="damaged-front-door-due-to-mold-and-asbestos" class="w-full rounded-lg shadow-md">
+              <img src="images/moldy-indoors.webp" style="aspect-ratio: 21/9; object-fit: cover;" alt="damaged-front-door-due-to-mold-and-asbestos" class="w-full rounded-lg shadow-md">
             </div>
 
             <p class="mb-6 text-lg leading-relaxed kk wm">
@@ -87,7 +87,7 @@
               <!-- Mold Section -->
               <div :class="{'bg-green-50': !darkMode, 'bg-green-600': darkMode}" class="p-6 rounded-lg">
                 <div class="flex flex-col items-start">
-                  <img src="images/mold1.jpg" alt="Multiple-kinds-of-mold-on-a-wall" class=" w-full  md:h-[400px] h-[250px]  rounded object-cover mb-4 ">
+                  <img src="images/mold1.webp" alt="Multiple-kinds-of-mold-on-a-wall" class=" w-full  md:h-[400px] h-[250px]  rounded object-cover mb-4 ">
                   <div>
                     <p class="wm kk">Mold spores are total party crashers - they show up uninvited and are everywhere! Outdoors, they're eco-superheroes, breaking down organic stuff. But indoors? They're unwelcome guests that can wreak havoc on your space! That’s where things go sideways.</p>
                    
@@ -111,7 +111,7 @@
               <!-- Asbestos Section -->
               <div :class="{'bg-green-50': !darkMode, 'bg-green-600': darkMode}" class="bg-green-50 p-6 rounded-lg">
                 <div class="flex flex-col items-start">
-                  <img src="images/sneaky-mold.jpg" alt="smelly-office-image" class="w-full  md:h-[400px] h-[250px]  rounded object-cover mb-4">
+                  <img src="images/sneaky-mold.webp" alt="smelly-office-image" class="w-full  md:h-[400px] h-[250px]  rounded object-cover mb-4">
                   <div>
                     <p class="kk wm">Mold spreads through tiny airborne spores that float easily through the air, landing on damp or humid surfaces where they can quickly begin to grow and multiply.  If your heating or cooling system is running while mold is present, those spores can travel throughout your entire home. What makes mold especially tricky is that it often grows out of sight —behind drywall, under floors, or inside ductwork. By the time you notice discoloration or a musty Odor, the infestation may already be well underway. This concealed mold growth often indicates that the damage behind walls or under surfaces may be much more severe than it appears on the surface.</p>
                       <table class="table-auto border-collapse w-full">
@@ -145,7 +145,7 @@
               <h3 class=" kk wm text-2xl font-bold mb-4 text-green-400">3. Why Quick Professional Cleaning Makes All the Difference:</h3>
               <div :class="{'bg-green-50': !darkMode, 'bg-green-600': darkMode}" class="bg-green-50 p-6 rounded-lg">
                 <div class="flex flex-col items-start">
-                  <img src="images/professionals-cleaning.png" alt="Lead-paint-old-image" class="w-full  md:h-[400px] h-[250px]  rounded object-cover mb-4">
+                  <img src="images/professionals-cleaning.webp" alt="Lead-paint-old-image" class="w-full  md:h-[400px] h-[250px]  rounded object-cover mb-4">
                   <div>
                     <p class=" kk wm">It might be tempting to tackle mold yourself with some bleach and elbow grease—but without the right tools, training, and containment measures, you could end up spreading harmful spores and making the problem worse.</p>
                       <p class="kk wm">
@@ -168,7 +168,7 @@
               <h3 class=" kk wm text-2xl font-bold mb-4 text-green-400">4. Real-Life Example: A Timely Save.</h3>
               <div :class="{'bg-green-50': !darkMode, 'bg-green-600': darkMode}" class="bg-green-50 p-6 rounded-lg">
                 <div class="flex flex-col items-start">
-                  <img src="images/roof-mold.jpg" alt="humid-office-image" class="w-full  md:h-[400px] h-[250px]  rounded object-cover mb-4">
+                  <img src="images/roof-mold.webp" alt="humid-office-image" class="w-full  md:h-[400px] h-[250px]  rounded object-cover mb-4">
                   <div>
                     <p class=" kk wm">One of our clients noticed a slight musty smell after a minor roof leak during a storm. Instead of risking further damage by waiting for it to “dry out,” they contacted us right away.
                                       Our team was on-site the same day, quickly detected early-stage mold developing in the ceiling, and carried out a fast, focused remediation to stop it before it spread. Total cost? Far less than what a full ceiling replacement would have been two weeks later.
@@ -191,7 +191,7 @@
             <div :class="{'bg-green-300': !darkMode, 'bg-green-600': darkMode}" class=" text-white p-8 rounded-lg my-12">
               <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 mb-6 md:mb-0 md:mr-6">
-                  <img src="images/danger.png" alt="Warning Icon" class="w-20 h-20">
+                  <img src="images/danger.webp" alt="Warning Icon" class="w-20 h-20">
                 </div>
                 <div class="md:w-2/3">
                   <h3 class="text-2xl font-bold mb-4 kk wm">Critical Statistic</h3>
@@ -257,7 +257,7 @@
               <!-- Testimonial 1 -->
               <div class=" bg-transparent p-6 rounded-lg shadow-md">
                 <div class="flex items-center mb-4">
-                  <img src="images/testimonial-1.png" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                  <img src="images/testimonial-1.webp" alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
                   <div>
                     <h4 class="font-bold">Sarah Thompson</h4>
                     <p class="text-sm  kk wm">Real Estate Investor</p>
@@ -272,7 +272,7 @@
               <!-- Testimonial 2 -->
               <div class=" bg-transparent p-6 rounded-lg shadow-md">
                 <div class="flex items-center mb-4">
-                  <img src="images/testimonial-1.png"alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
+                  <img src="images/testimonial-1.webp"alt="Client Photo" class="w-12 h-12 rounded-full mr-4">
                   <div>
                     <h4 class="font-bold">Michael Chen</h4>
                     <p class="text-sm  kk wm">Commercial Property Manager</p>

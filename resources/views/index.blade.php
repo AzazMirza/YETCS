@@ -20,7 +20,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
 
         <!-- Hero Images -->
         <div class="w-full md:w-1/2 md:order-2 px-8">
-          <img src="images/001.png" alt="Worker"  class=" q ua rounded-full overflow-hidden bg-[#a7d938] w-full" />
+          <img src="images/001.webp" alt="Worker"  class=" q ua rounded-full overflow-hidden bg-[#a7d938] w-full" />
         </div>
 
         <!-- Hero Content -->
@@ -96,12 +96,12 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
             <div class="animate_left xc gn gg jn/2 i">
               <div>
                 <img src="images/shape-05.svg" alt="Shape" class="h -ud-left-5 x" />
-                <img src="images/cleaning1.jpeg" height="300" width="200" alt="About" class="ib sg" />
-                <img src="images/cleaning2.jpeg" height="300" width="200"  alt="About" class="sg" />
+                <img src="images/cleaning1.webp" height="300" width="200" alt="About" class="ib sg" />
+                <img src="images/cleaning2.webp" height="300" width="200"  alt="About" class="sg" />
               </div>
               <div>
                 <img src="images/shape-06.svg" alt="Shape" />
-                <img src="images/cleaning3.jpeg"  height="300" width="200"  alt="About" class="ob gb sg" />
+                <img src="images/cleaning3.webp"  height="300" width="200"  alt="About" class="ob gb sg" />
                 <img src="images/shape-07.svg" alt="Shape" class="bb" />
               </div>
             </div>
@@ -268,7 +268,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
             <!-- Project Item -->
             <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
               <div class="c i pg sg z-1">
-                <img src="images/project-01.jpg" width="250" height="250"  class=" object-cover mx-auto" alt="Project" />
+                <img src="images/project-01.webp" width="250" height="250"  class=" object-cover mx-auto" alt="Project" />
 
                 <div 
                   class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
@@ -290,7 +290,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
             <!-- Project Item -->
             <div class="project-item wi fb vd jn/2 to/3 digital">
               <div class="c i pg sg z-1">
-                <img src="images/project-02.jpg" width="250" height="250" alt="Project" class=" object-cover mx-auto" />
+                <img src="images/project-02.webp" width="250" height="250" alt="Project" class=" object-cover mx-auto" />
                 <div
                   class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
                 >
@@ -311,7 +311,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
             <!-- Project Item -->
             <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
               <div class="c i pg sg z-1">
-                <img src="images/project-04.jpg" width="250" height="250" class=" object-cover mx-auto" alt="Project" />
+                <img src="images/project-04.webp" width="250" height="250" class=" object-cover mx-auto" alt="Project" />
 
                 <div
                   class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
@@ -333,7 +333,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
             <!-- Project Item -->
             <div class="project-item wi fb vd vo/3 digital ecommerce">
               <div class="c i pg sg z-1">
-                <img src="images/project-03.jpg" width="250" height="250" class=" object-cover mx-auto" alt="Project" />
+                <img src="images/project-03.webp" width="250" height="250" class=" object-cover mx-auto" alt="Project" />
 
                 <div
                   class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
@@ -389,7 +389,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
                     <span class="rc je md/2 mh yg h q p"></span>
 
                     <div class="tc sf rn tn un zf dp">
-                      <img class="bf" src="images/reviewer1.jpg"  height="300" width="250" alt="User" />
+                      <img class="bf" src="images/reviewer1.webp"  height="300" width="250" alt="User" />
 
                       <div>
                         <img src="images/icon-quote.svg" alt="Quote" />
@@ -415,7 +415,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
                     <span class="rc je md/2 mh yg h q p"></span>
 
                     <div class="tc sf rn tn un zf dp">
-                      <img class="bf" src="images/reviewer2.jpg" height="300" width="250" alt="User" />
+                      <img class="bf" src="images/reviewer2.webp" height="300" width="250" alt="User" />
 
                       <div>
                         <img src="images/icon-quote.svg" alt="Quote" />
@@ -442,7 +442,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
                     <span class="rc je md/2 mh yg h q p"></span>
 
                     <div class="tc sf rn tn un zf dp">
-                      <img class="bf" src="images/reviewer3.jpg" height="300" width="250" alt="User" />
+                      <img class="bf" src="images/reviewer3.webp" height="300" width="250" alt="User" />
 
                       <div>
                         <img src="images/icon-quote.svg" alt="Quote" />
@@ -543,7 +543,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
             <!-- Blog Item 10 -->
             <div class="animate_top sg vk rm xm">
               <div class="c rc i z-1 pg">
-                <img class="w-full" src="images/brooklyn.webp" alt="Blog" />
+                <img class="w-full" src="images/brooklyn.webp" alt="The Hidden Dangers of Asbestos" />
 
                 <div
                   class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10"
@@ -566,7 +566,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
                   </div>
                 </div>
                 <h4 class="ek tj ml il kk wm xl eq lb">
-                  <a href="{{route ('The-Hidden-Dangers-of-Asbestos-Are-You-at-Risk-in-Your-Brooklyn-Property')}}">The Hidden Health Risks Lurking in Unclean Properties</a>
+                  <a href="{{route ('The-Hidden-Dangers-of-Asbestos-Are-You-at-Risk-in-Your-Brooklyn-Property')}}">The Hidden Dangers of Asbestos</a>
                 </h4>
               </div>
             </div>
@@ -574,7 +574,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
             <!-- Blog Item 9 -->
             <div class="animate_top sg vk rm xm">
               <div class="c rc i z-1 pg">
-                <img class="w-full" src="images/street-house.webp" alt="Blog" />
+                <img class="w-full" src="images/street-house.webp" alt="The Hidden Health Risks Lurking in Unclean Properties" />
 
                 <div
                   class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10"
@@ -605,7 +605,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
             <!-- Blog Item 8 -->
             <div class="animate_top sg vk rm xm">
               <div class="c rc i z-1 pg">
-                <img class="w-full" src="images/professional-cleaners.webp" alt="Blog" />
+                <img class="w-full" src="images/professional-cleaners.webp" alt="Our Deep Cleaning Checklist What We Actually Do When You Book Us" />
 
                 <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
                   <a href="{{route ('Our-Deep-Cleaning-Checklist-What-We-Actually-Do-When-You-Book-Us')}}" class="vc ek rg lk gh sl ml il gi hi"
