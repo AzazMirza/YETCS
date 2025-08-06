@@ -8,9 +8,6 @@ Route::get('/', function () {
 Route::get('index', function () {
     return view('index');
 })->name('index');
-// Route::get('/YETCS-video', function () {
-//     return view('YETCS-video');
-// })->name('YETCS-video');
 
 Route::get('/404', function () {
     return view('404');
@@ -21,15 +18,7 @@ Route::get('/blog-grid', function () {
 Route::get('/blog-single', function () {
     return view('blog-single');
 })->name('blog-single');
-Route::get('/signin', function () {
-    return view('signin');
-})->name('signin');
-Route::get('/signup', function () {
-    return view('signup');
-})->name('signup');
-Route::get('/usefulElements', function () {
-    return view('usefulElements');
-})->name('usefulElements');
+
 Route::get('/How-We-Handle-Mold-the-Right-Way-A-Brooklyn-Centric-Approach-to-a-Healthier-Home', function () {
     return view('How-We-Handle-Mold-the-Right-Way-A-Brooklyn-Centric-Approach-to-a-Healthier-Home');
 })->name('How-We-Handle-Mold-the-Right-Way-A-Brooklyn-Centric-Approach-to-a-Healthier-Home');

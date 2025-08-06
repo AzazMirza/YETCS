@@ -33,8 +33,6 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
               </p>
 
               <div class="tc tf yo zf mb">
-<!--                 <a href="#support" class="ek jk lk gh gi hi rg ml il vc _d _l" @click="$scrollTo('#support')">Get Started Now</a> -->
-
                 <span class="tc sf">
                   <button class="ek jk lk gh gi hi rg ml il vc _d _l">
                       <a href="tel:13472546186" class="inline-block">Call now (1347) 254-6186</a>
@@ -196,166 +194,6 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
       </section>
       <!-- ===== Services End ===== -->
 
-      <!-- ===== Pricing Table Start ===== -->
-      {{-- <section x-data="setup()" class="i pg fh rm ji gp uq">
-        <!-- Bg Shapes -->
-        <img src="images/shape-06.svg" alt="Shape" class="h aa y" />
-        <img src="images/shape-03.svg" alt="Shape" class="h ca u" />
-        <img src="images/shape-07.svg" alt="Shape" class="h w da ee" />
-        <img src="images/shape-12.svg" alt="Shape" class="h p s" />
-        <img src="images/shape-13.svg" alt="Shape" class="h r q" />
-
-
-      <!-- ===== Projects Start ===== -->
-      <section class="pg pj vp mr oj wp nr">
-        <!-- Section Title Start -->
-        <div
-          x-data="{ sectionTitle: `We Offer Great Affordable Premium Prices.`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
-        >
-          <div class="animate_top bb ze rj ki xn vq">
-    <h2
-            x-text="sectionTitle"
-            class="fk vj pr kk wm on/5 gq/2 bb _b"
-    >
-    </h2>
-    <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
-</div>
-        </div>
-        <!-- Section Title End -->
-
-        <div class="bb ze ki xn 2xl:ud-px-0 jb" x-data="{filterTab: 1}">
-          <!-- Porject Tab -->
-          <div
-            class="projects-tab _e bb tc uf wf xf cg rg hh rm vk xm si ti fc"
-          >
-            <button
-              data-filter="*"
-              @click="filterTab = 1"
-              :class="{ 'gh lk' : filterTab === 1 }"
-              class="project-tab-btn ek rg ml il vi mi"
-            >
-              All
-            </button>
-            <button
-              data-filter=".branding"
-              @click="filterTab = 2"
-              :class="{ 'gh lk' : filterTab === 2 }"
-              class="project-tab-btn ek rg ml il vi mi"
-            >
-              Asbestos Removal
-            </button>
-            <button
-              data-filter=".digital"
-              @click="filterTab = 3"
-              :class="{ 'gh lk' : filterTab === 3 }"
-              class="project-tab-btn ek rg ml il vi mi"
-            >
-              Lead Removal
-            </button>
-            <button
-              data-filter=".ecommerce"
-              @click="filterTab = 4"
-              :class="{ 'gh lk' : filterTab === 4 }"
-              class="project-tab-btn ek rg ml il vi mi"
-            >
-              Mold
-            </button>
-          </div>
-
-          <!-- Projects item wrapper -->
-          <div class="projects-wrapper tc -ud-mx-5">
-            <div class="project-sizer"></div>
-            <!-- Project Item -->
-            <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
-              <div class="c i pg sg z-1">
-                <img src="images/project-01.webp" width="250" height="250"  class=" object-cover mx-auto" alt="Project" />
-
-                <div 
-                  class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
-                >
-                  <h4 class="ek tj kk hc">Yetcs</h4>
-                  <p>Asbestos cleaning</p>
-                  <a
-                    class="c tc wf xf ie ld rg _g dh ml il ph jm km jc"
-                    href="#"
-                  >
-                    <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project Item -->
-            <div class="project-item wi fb vd jn/2 to/3 digital">
-              <div class="c i pg sg z-1">
-                <img src="images/project-02.webp" width="250" height="250" alt="Project" class=" object-cover mx-auto" />
-                <div
-                  class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
-                >
-                  <h4 class="ek tj kk hc">Lead Removal</h4>
-                  <p>Lead inspection</p>
-                  <a
-                    class="c tc wf xf ie ld rg _g dh ml il ph jm km jc"
-                    href="#"
-                  >
-                    <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project Item -->
-            <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
-              <div class="c i pg sg z-1">
-                <img src="images/project-04.webp" width="250" height="250" class=" object-cover mx-auto" alt="Project" />
-
-                <div
-                  class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
-                >
-                  <h4 class="ek tj kk hc">Roofing Restoration</h4>
-                  <p>Roof inspection and Cleaning</p>
-                  <a
-                    class="c tc wf xf ie ld rg _g dh ml il ph jm km jc"
-                    href="#"
-                  >
-                    <!-- <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
-                    </svg> -->
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project Item -->
-            <div class="project-item wi fb vd vo/3 digital ecommerce">
-              <div class="c i pg sg z-1">
-                <img src="images/project-03.webp" width="250" height="250" class=" object-cover mx-auto" alt="Project" />
-
-                <div
-                  class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
-                >
-                  <h4 class="ek tj kk hc">Mold Inspection</h4>
-                  <p>Mold Removel</p>
-                  <a
-                    class="c tc wf xf ie ld rg _g dh ml il ph jm km jc"
-                    href="#"
-                  >
-                    <!-- <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
-                    </svg> -->
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- ===== Projects End ===== --> --}}
-
       <!-- ===== Testimonials Start ===== -->
       <section class="hj rp hr">
         <!-- Section Title Start -->
@@ -506,10 +344,6 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
               <h2 class="gk vj zp or kk wm hc">12+</h2>
               <p class="ek bk aq">Years of Experience</p>
             </div>
-            <!-- <div class="animate_top me/5 ln rj">
-              <h2 class="gk vj zp or kk wm hc">865</h2>
-              <p class="ek bk aq">Winning Award</p>
-            </div> -->
             <div class="animate_top me/5 ln rj">
               <h2 class="gk vj zp or kk wm hc">300+</h2>
               <p class="ek bk aq">Returning Clients</p>

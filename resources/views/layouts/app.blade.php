@@ -55,25 +55,7 @@
         <ul class="tc _o sf yo cg ep">
           <li><a href="{{route ('index')}}" class="xl" :class="{ 'mk': page === 'home' }">Home</a></li>
           <li><a href="{{route ('index')}}#features" class="xl">Features</a></li>
-          <!-- <li class="c i" x-data="{ dropdown: false }"> -->
-            <a href="{{route ('blog-grid')}}" class="xl tc wf yf bg"> Blogs
-              <!-- <svg
-              :class="{ 'wh': dropdown }"
-              class="th mm we fd pf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
-              </svg> -->
-            </a>
-
-            <!-- Dropdown Start -->
-            {{-- <ul class="a" :class="{ 'tc': dropdown }">
-              <li><a href="{{route ('blog-grid')}}" class="xl" :class="{ 'mk': page === 'blog-grid' }">Blog Grid</a></li>
-              <li><a href="blog-single.html" class="xl" :class="{ 'mk': page === 'blog-single' }">Blog Single</a></li>
-              <li><a href="signin.html" class="xl" :class="{ 'mk': page === 'signin' }">Sign In</a></li>
-              <li><a href="signup.html" class="xl" :class="{ 'mk': page === 'signup' }">Sign Up</a></li>
-              <li><a href="404.html" class="xl" :class="{ 'mk': page === '404' }">404</a></li>
-            </ul> --}}
-            <!-- Dropdown End -->
-          </li>
+            <a href="{{route ('blog-grid')}}" class="xl tc wf yf bg"> Blogs </a></li>
           <li><a href="{{route ('index')}}#support" class="xl">Support</a></li>
         </ul>
       </nav>
@@ -90,9 +72,6 @@
             <img class="xc nm" src="images/icon-moon.svg" alt="Moon" />
           </label>
         </div>
-
-        <a href="{{route ('signin')}}" :class="{ 'nk yl' : page === 'home', 'ok' : page === 'home' && stickyMenu }" class="ek pk xl">Sign In</a>
-        <a href="{{route ('signup')}}" :class="{ 'hh/[0.15]' : page === 'home', 'sh' : page === 'home' && stickyMenu }" class="lk gh dk rg tc wf xf _l gi hi">Sign Up</a>
       </div>
     </div>
   </div>
