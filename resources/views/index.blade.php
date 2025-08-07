@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('page_title')
-  Yetcs Environmentals
+  Lead, Asbestos & Mold Removal | Brooklyn, NY | Yetcs
 @endsection
 
 @section('page')
@@ -20,14 +20,14 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
 
         <!-- Hero Images -->
         <div class="w-full md:w-1/2 md:order-2 px-8">
-          <img src="images/001.webp" alt="Worker"  class=" q ua rounded-full overflow-hidden bg-[#a7d938] w-full" />
+          <img src="images/001.webp"  alt="Worker providing professional mold and asbestos remediation service in Brooklyn, NY"  class=" q ua rounded-full overflow-hidden bg-[#a7d938] w-full" loading="lazy" />
         </div>
 
         <!-- Hero Content -->
         <div class="md:flex-1 md:order-1 bb ze ki xn 2xl:ud-px-0">
           <div class="tc _o">
             <div class="animate_left jn md:mt-12">
-              <h1 class="fk vj zp or kk wm wb" >We Specialize in Lead, Asbestos and Mold Inspection.</h1>
+              <h1 class="fk vj zp or kk wm wb" >We Specialize in Lead, Asbestos and Mold Inspection..</h1>
               <p class="fq" >
                 We are a dedicated company specializing in the inspection and remediation of lead, asbestos, and mold in residential properties. Our team is committed to ensuring the safety and well-being of your family by providing thorough assessments and effective removal solutions.
               </p>
@@ -94,12 +94,12 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
             <div class="animate_left xc gn gg jn/2 i">
               <div>
                 <img src="images/shape-05.svg" alt="Shape" class="h -ud-left-5 x" />
-                <img src="images/cleaning1.webp" height="300" width="200" alt="About" class="ib sg" />
-                <img src="images/cleaning2.webp" height="300" width="200"  alt="About" class="sg" />
+                <img src="images/cleaning1.webp" height="300" width="200" alt="About" class="ib sg" loading="lazy"/>
+                <img src="images/cleaning2.webp" height="300" width="200"  alt="About" class="sg" loading="lazy"/>
               </div>
               <div>
                 <img src="images/shape-06.svg" alt="Shape" />
-                <img src="images/cleaning3.webp"  height="300" width="200"  alt="About" class="ob gb sg" />
+                <img src="images/cleaning3.webp"  height="300" width="200"  alt="About" class="ob gb sg" loading="lazy"/>
                 <img src="images/shape-07.svg" alt="Shape" class="bb" />
               </div>
             </div>
@@ -112,13 +112,6 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
                 With years of experience and a dedicated team, we provide reliable, high-quality services tailored to meet your business needs. Our focus on customer satisfaction ensures that every project is handled with care and precision.
               </p>
             
-              <a href="{{ asset('videos/YETCS-video.mp4') }}" data-fslightbox class="vc wf hg mb">
-                <span class="tc wf xf be dd rg i gh ua">
-                  <span class="nf h vc yc vd rg gh qk -ud-z-1"></span>
-                  <img src="images/icon-play.svg" alt="Play" />
-                </span>
-                <span class="kk">SEE HOW WE WORK</span>
-              </a>
             </div>
           </div>
         </div>
@@ -227,7 +220,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
                     <span class="rc je md/2 mh yg h q p"></span>
 
                     <div class="tc sf rn tn un zf dp">
-                      <img class="bf" src="images/reviewer1.webp"  height="300" width="250" alt="User" />
+                      <img class="bf" src="images/reviewer1.webp"  height="300" width="250" alt="User" loading="lazy"/>
 
                       <div>
                         <img src="images/icon-quote.svg" alt="Quote" />
@@ -253,7 +246,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
                     <span class="rc je md/2 mh yg h q p"></span>
 
                     <div class="tc sf rn tn un zf dp">
-                      <img class="bf" src="images/reviewer2.webp" height="300" width="250" alt="User" />
+                      <img class="bf" src="images/reviewer2.webp" height="300" width="250" alt="User" loading="lazy"/>
 
                       <div>
                         <img src="images/icon-quote.svg" alt="Quote" />
@@ -280,7 +273,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
                     <span class="rc je md/2 mh yg h q p"></span>
 
                     <div class="tc sf rn tn un zf dp">
-                      <img class="bf" src="images/reviewer3.webp" height="300" width="250" alt="User" />
+                      <img class="bf" src="images/reviewer3.webp" height="300" width="250" alt="User" loading="lazy"/>
 
                       <div>
                         <img src="images/icon-quote.svg" alt="Quote" />
@@ -377,7 +370,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
             <!-- Blog Item 10 -->
             <div class="animate_top sg vk rm xm">
               <div class="c rc i z-1 pg">
-                <img class="w-full" src="images/brooklyn.webp" alt="The Hidden Dangers of Asbestos" />
+                <img class="w-full" src="images/brooklyn.webp" alt="The Hidden Dangers of Asbestos" loading="lazy"/>
 
                 <div
                   class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10"
@@ -408,7 +401,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
             <!-- Blog Item 9 -->
             <div class="animate_top sg vk rm xm">
               <div class="c rc i z-1 pg">
-                <img class="w-full" src="images/street-house.webp" alt="The Hidden Health Risks Lurking in Unclean Properties" />
+                <img class="w-full" src="images/street-house.webp" alt="The Hidden Health Risks Lurking in Unclean Properties" loading="lazy"/>
 
                 <div
                   class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10"
@@ -439,7 +432,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
             <!-- Blog Item 8 -->
             <div class="animate_top sg vk rm xm">
               <div class="c rc i z-1 pg">
-                <img class="w-full" src="images/professional-cleaners.webp" alt="Our Deep Cleaning Checklist What We Actually Do When You Book Us" />
+                <img class="w-full" src="images/professional-cleaners.webp" alt="Our Deep Cleaning Checklist What We Actually Do When You Book Us" loading="lazy"/>
 
                 <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
                   <a href="{{route ('Our-Deep-Cleaning-Checklist-What-We-Actually-Do-When-You-Book-Us')}}" class="vc ek rg lk gh sl ml il gi hi"
@@ -548,24 +541,7 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
                       
                       <svg class="th lm ml il" width="15" height="20" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 449.45 515.38"><path fill-rule="nonzero" d="M382.31 103.3c-27.76-18.1-47.79-47.07-54.04-80.82-1.35-7.29-2.1-14.8-2.1-22.48h-88.6l-.15 355.09c-1.48 39.77-34.21 71.68-74.33 71.68-12.47 0-24.21-3.11-34.55-8.56-23.71-12.47-39.94-37.32-39.94-65.91 0-41.07 33.42-74.49 74.48-74.49 7.67 0 15.02 1.27 21.97 3.44V190.8c-7.2-.99-14.51-1.59-21.97-1.59C73.16 189.21 0 262.36 0 352.3c0 55.17 27.56 104 69.63 133.52 26.48 18.61 58.71 29.56 93.46 29.56 89.93 0 163.08-73.16 163.08-163.08V172.23c34.75 24.94 77.33 39.64 123.28 39.64v-88.61c-24.75 0-47.8-7.35-67.14-19.96z"/></svg>
                     </a>
-
-                      <!-- <svg class="th lm ml il" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M4.36198 2.58327C4.36174 3.0695 4.16835 3.53572 3.82436 3.87937C3.48037 4.22301 3.01396 4.41593 2.52773 4.41569C2.0415 4.41545 1.57528 4.22206 1.23164 3.87807C0.887991 3.53408 0.69507 3.06767 0.695313 2.58144C0.695556 2.09521 0.888943 1.62899 1.23293 1.28535C1.57692 0.941701 2.04333 0.748781 2.52956 0.749024C3.01579 0.749267 3.48201 0.942654 3.82566 1.28664C4.1693 1.63063 4.36222 2.09704 4.36198 2.58327ZM4.41698 5.77327H0.750313V17.2499H4.41698V5.77327ZM10.2103 5.77327H6.56198V17.2499H10.1736V11.2274C10.1736 7.87244 14.5461 7.56077 14.5461 11.2274V17.2499H18.167V9.98077C18.167 4.32494 11.6953 4.53577 10.1736 7.31327L10.2103 5.77327Z"
-                          fill=""
-                        />
-                      </svg> -->
                   </li>
-                  <!-- <li>
-                    <a href="#" class="c tc wf xf ie ld rg ml il tl">
-                      <svg class="th lm ml il" width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M6.82308 0.904297C7.40883 0.904297 7.95058 0.95013 8.44558 1.0858C8.89476 1.16834 9.32351 1.33772 9.70783 1.58446C10.069 1.81088 10.3394 2.12896 10.5191 2.53688C10.6997 2.9448 10.7895 3.44438 10.7895 3.98796C10.7895 4.62321 10.6547 5.1668 10.3394 5.57471C10.069 5.98355 9.61799 6.34563 9.07716 6.61788C9.84349 6.84521 10.4292 7.25313 10.7895 7.79672C11.1507 8.34122 11.3762 9.02138 11.3762 9.7923C11.3762 10.4275 11.2405 10.9711 11.015 11.4249C10.7895 11.8786 10.4292 12.2865 10.0232 12.5588C9.58205 12.8506 9.09443 13.0651 8.58124 13.1931C8.04041 13.3297 7.49958 13.4205 6.95874 13.4205H0.916992V0.904297H6.82308ZM6.46191 5.98263C6.95783 5.98263 7.36391 5.84696 7.67924 5.62055C7.99458 5.39413 8.13024 4.9853 8.13024 4.48663C8.13024 4.21438 8.08441 3.94213 7.99458 3.76155C7.90474 3.58005 7.76908 3.44346 7.58941 3.3078C7.40883 3.21705 7.22824 3.1263 7.00274 3.08138C6.77724 3.03555 6.55266 3.03555 6.28133 3.03555H3.66699V5.98355H6.46283L6.46191 5.98263ZM6.59758 11.3341C6.86799 11.3341 7.13841 11.2883 7.36391 11.2434C7.59159 11.2001 7.80692 11.1071 7.99458 10.9711C8.17826 10.8384 8.33193 10.6685 8.44558 10.4725C8.53541 10.246 8.62616 9.9738 8.62616 9.65663C8.62616 9.02138 8.44558 8.56763 8.08533 8.25046C7.72416 7.97822 7.22824 7.84255 6.64249 7.84255H3.66699V11.335H6.59758V11.3341ZM15.2986 11.2883C15.6588 11.6513 16.1997 11.8328 16.9211 11.8328C17.417 11.8328 17.868 11.6971 18.2282 11.4707C18.5894 11.1985 18.8149 10.9262 18.9047 10.654H21.1139C20.7527 11.742 20.2119 12.513 19.4914 13.0116C18.7691 13.4654 17.9129 13.7376 16.8762 13.7376C16.2128 13.7396 15.5551 13.6165 14.9374 13.3746C14.3816 13.1661 13.886 12.8235 13.4946 12.3773C13.0759 11.9598 12.7665 11.4457 12.5935 10.8804C12.368 10.291 12.2772 9.65663 12.2772 8.93063C12.2772 8.25047 12.368 7.61613 12.5935 7.0258C12.8103 6.45755 13.1311 5.93468 13.5395 5.48396C13.9456 5.07605 14.4415 4.71396 14.9823 4.48663C15.5843 4.24469 16.2274 4.12143 16.8762 4.12363C17.6425 4.12363 18.319 4.26021 18.9047 4.57738C19.4914 4.89455 19.9415 5.25755 20.3027 5.80205C20.6711 6.32503 20.9456 6.90819 21.1139 7.52538C21.2037 8.15972 21.2487 8.79497 21.2037 9.52005H14.667C14.667 10.246 14.9374 10.9262 15.2986 11.2892V11.2883ZM18.1384 6.52713C17.8231 6.20996 17.3272 6.02846 16.7405 6.02846C16.3353 6.02846 16.0191 6.11922 15.7487 6.25488C15.4782 6.39147 15.2986 6.57297 15.118 6.75447C14.952 6.92978 14.8422 7.15067 14.8027 7.3888C14.7568 7.61613 14.7119 7.79672 14.7119 7.97822H18.7691C18.6792 7.29805 18.4537 6.84522 18.1384 6.52713ZM14.1711 1.76596H19.2201V2.99063H14.172V1.76596H14.1711Z"
-                          fill=""
-                        />
-                      </svg>
-                    </a>
-                  </li> -->
                 </ul>
               </div>
             </div>
@@ -640,5 +616,5 @@ x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen':
         </div>
       </section>
       <!-- ===== Contact End ===== -->
-
 @endsection
+

@@ -12,7 +12,7 @@ use Intervention\Image\Encoders\WebpEncoder;
 
 class OptimizeImages extends Command
 {
-    protected $signature = 'optimize';
+    protected $signature = 'imageoptimize';
     protected $description = 'Optimize images by converting jpg, jpeg, png to webp without changing dimensions';
 
     public function handle()
